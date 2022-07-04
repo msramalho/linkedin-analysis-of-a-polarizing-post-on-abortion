@@ -1,8 +1,8 @@
-<center>
+<p align="center">
   <h1>Linkedin Analysis of a Polarizing Post on Abortion (in Portugal)</h1>
 
   <h3>How to scrape a linkedin post + What we can learn from it.</h3>
-</center>
+</p>
 
   1. [Contexto (pt)](#contexto-pt)
   2. [Visual Results](#visual-results)
@@ -14,12 +14,12 @@
 ## Contexto (pt)
 No dia 28 de junho de 2022, o fundador e ex-ceo da [prozis](https://pt.wikipedia.org/wiki/Prozis#Controv%C3%A9rsias) publicou o seguinte post:
 
-<center>
+<p align="center">
   <img src="media/post.jpg" style = "height:120px"/>
 
 > 'It seems that unborn babies got their rights back in USA! Nature is healing!👍🤌👍'
 
-</center>
+</p>
 
 
 As reações aumentaram, a "controvérsia" penetrou outras redes sociais e círculos sociais, até ser notícia em vários media portugueses. Peguei em dois desafios:
@@ -68,39 +68,39 @@ https://www.publico.pt/2021/06/22/mundo/noticia/violacoes-graves-criancas-confli
 
 ## Visual Results
 
-<center>
+<p align="center">
   <h3>wordcloud of all the replies and comments in the linkedin post</h3>
   <br>
   <img src="media/all.png" style = "max-width:60%"/>
-</center>
+</p>
 
-<center>
+<p align="center">
   <h3>wordcloud of all the replies and comments by miguel milhão</h3>
   <br>
   <img src="media/mm.png" style = "max-width:60%"/>
-</center>
+</p>
 
-<center>
+<p align="center">
   <h3>wordcloud of prolife accounts identified based on positive reactions to the original post</h3>
   <br>
-  <img src="media/mm.png" style = "max-width:60%"/>
-</center>
+  <img src="media/prolife.png" style = "max-width:60%"/>
+</p>
 
-<center>
+<p align="center">
   <h3>Network visualization of user reactions to other users, colored for name gender</h3>
   <br>
   <img src="media/final-gender-label.png" style = "max-width:100%"/>
-</center>
+</p>
 <img src="media/gender_position.png" style = "max-width:70%"/>
 
 * 261/427 aka 61.12% of prolife are male, they are 1194/3106 aka 38.44% of all people
 * 161/427 aka 37.70% of prolife are female, they are 1905/3106 aka 61.33% of all people
 
-<center>
+<p align="center">
   <h3>Network visualization of user reactions to other users, colored for predicted position on abortion</h3>
   <br>
   <img src="media/final-position-label.png" style = "max-width:100%"/>
-</center>
+</p>
 <img src="media/position_gender.png" style = "max-width:70%"/>
 
 
@@ -112,21 +112,21 @@ EN below
 
 ##### Instructions 
 
-1. read this until the end
-2. Go to a linkedin post page
-3. Open the console
+1. read these until the end first
+2. go to a linkedin post page
+3. open the console
 4. paste all of the contents of [code.js](code.js)
-5. Run `await loadAllData();` which will expand all the comments and responses -> might need to run it multiple times
-6. Run `await getAndDownloadAllData("output.json");` and sitback, it can take several minutes depending on the size of the post, it will put some pressure on your browser + computer, the output.json file will be downloaded when ready
+5. run `await loadAllData();` which will expand all the comments and responses -> might need to run it multiple times
+6. run `await getAndDownloadAllData("output.json");` and sitback, it can take several minutes depending on the size of the post, it will put some pressure on your browser + computer, the output.json file will be downloaded when ready
 
 You can also run  `await getAndDownloadAllData("output.json");` before `await loadAllData();` to make sure the download is working as expected for a sample of the data. 
 
 This might happen, advice is to monitor RAM and close all non-essential applications and browser windows:
 
 
-<center>
+<p align="center">
   <img src="https://user-images.githubusercontent.com/19508417/176014620-b0f87411-298d-4845-a047-f76e8f304b06.png" style = "height:140px"/>
-</center>
+</p>
 
 ---
 
