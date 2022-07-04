@@ -1,6 +1,5 @@
 <p align="center">
   <h1>Linkedin Analysis of a Polarizing Post on Abortion (in Portugal)</h1>
-
   <h3>How to scrape a linkedin post + What we can learn from it.</h3>
 </p>
 
@@ -15,10 +14,7 @@
 No dia 28 de junho de 2022, o fundador e ex-ceo da [prozis](https://pt.wikipedia.org/wiki/Prozis#Controv%C3%A9rsias) publicou o seguinte post:
 
 <p align="center">
-  <img src="media/post.jpg" style = "height:120px"/>
-
-> 'It seems that unborn babies got their rights back in USA! Nature is healing!👍🤌👍'
-
+  <img src="media/post.jpg" style = "height:120px" alt="It seems that unborn babies got their rights back in USA! Nature is healing!👍🤌👍"/>
 </p>
 
 
