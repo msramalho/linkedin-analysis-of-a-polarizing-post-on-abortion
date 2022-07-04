@@ -1,4 +1,4 @@
-<h1 align="center">Linkedin Analysis of a Polarizing Post on Abortion (in Portugal)</h1>
+<h1 align="center">Linkedin Analysis of a Polarizing Post on Abortion<br>(in Portugal)</h1>
 <h3 align="center">How to scrape a linkedin post + What we can learn from it.</h3>
 
   1. [Contexto (pt)](#contexto-pt)
