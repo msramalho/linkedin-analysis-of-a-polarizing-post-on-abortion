@@ -1,7 +1,5 @@
-<p align="center">
-  <h1>Linkedin Analysis of a Polarizing Post on Abortion (in Portugal)</h1>
-  <h3>How to scrape a linkedin post + What we can learn from it.</h3>
-</p>
+<h1 align="center">Linkedin Analysis of a Polarizing Post on Abortion (in Portugal)</h1>
+<h3 align="center">How to scrape a linkedin post + What we can learn from it.</h3>
 
   1. [Contexto (pt)](#contexto-pt)
   2. [Visual Results](#visual-results)
@@ -14,7 +12,7 @@
 No dia 28 de junho de 2022, o fundador e ex-ceo da [prozis](https://pt.wikipedia.org/wiki/Prozis#Controv%C3%A9rsias) publicou o seguinte post:
 
 <p align="center">
-  <img src="media/post.jpg" style = "height:120px" alt="It seems that unborn babies got their rights back in USA! Nature is healing!👍🤌👍"/>
+  <img src="media/post.jpg" height="120px" alt="It seems that unborn babies got their rights back in USA! Nature is healing!👍🤌👍"/>
 </p>
 
 
@@ -64,40 +62,35 @@ https://www.publico.pt/2021/06/22/mundo/noticia/violacoes-graves-criancas-confli
 
 ## Visual Results
 
+<h3 align="center">wordcloud of all the replies and comments in the linkedin post</h3>
 <p align="center">
-  <h3>wordcloud of all the replies and comments in the linkedin post</h3>
-  <br>
-  <img src="media/all.png" style = "max-width:60%"/>
+  <img src="media/all.png" width="60%"/>
 </p>
 
+<h3 align="center">wordcloud of all the replies and comments by miguel milhão</h3>
 <p align="center">
-  <h3>wordcloud of all the replies and comments by miguel milhão</h3>
-  <br>
-  <img src="media/mm.png" style = "max-width:60%"/>
+  <img src="media/mm.png" width="60%"/>
 </p>
 
+<h3 align="center">wordcloud of prolife accounts identified based on positive reactions to the original post</h3>
 <p align="center">
-  <h3>wordcloud of prolife accounts identified based on positive reactions to the original post</h3>
-  <br>
-  <img src="media/prolife.png" style = "max-width:60%"/>
+  <img src="media/prolife.png" width="60%"/>
 </p>
 
+<h3 align="center">Network visualization of user reactions to other users, colored for name gender</h3>
 <p align="center">
-  <h3>Network visualization of user reactions to other users, colored for name gender</h3>
-  <br>
-  <img src="media/final-gender-label.png" style = "max-width:100%"/>
+  <img src="media/final-gender-label.png" width="100%"/>
+  <img src="media/gender_position.png" width="70%"/>
 </p>
-<img src="media/gender_position.png" style = "max-width:70%"/>
 
 * 261/427 aka 61.12% of prolife are male, they are 1194/3106 aka 38.44% of all people
 * 161/427 aka 37.70% of prolife are female, they are 1905/3106 aka 61.33% of all people
 
+<h3 align="center">Network visualization of user reactions to other users, colored for predicted position on abortion</h3>
 <p align="center">
-  <h3>Network visualization of user reactions to other users, colored for predicted position on abortion</h3>
-  <br>
-  <img src="media/final-position-label.png" style = "max-width:100%"/>
+  <img src="media/final-position-label.png" width="100%"/>
+<img src="media/position_gender.png" width="70%"/>
 </p>
-<img src="media/position_gender.png" style = "max-width:70%"/>
 
 
 ---
