@@ -9,25 +9,24 @@
 
 
 ## Contexto (pt)
-No dia 28 de junho de 2022, o fundador e ex-ceo da [prozis](https://pt.wikipedia.org/wiki/Prozis#Controv%C3%A9rsias) publicou o seguinte post:
+No dia 28 de junho de 2022, o fundador e ex-ceo da [prozis](https://pt.wikipedia.org/wiki/Prozis#Controv%C3%A9rsias) publicou o seguinte post no linkedin:
 
 <p align="center">
   <img src="media/post.jpg" height="120px" alt="It seems that unborn babies got their rights back in USA! Nature is healing!👍🤌👍"/>
 </p>
 
 
-As reações aumentaram, a "controvérsia" penetrou outras redes sociais e círculos sociais, até ser notícia em vários media portugueses. Peguei em dois desafios:
+Após imensas reações que transbordaram para outras redes sociais e círculos sociais, até ser notícia em vários media portugueses. Peguei em dois desafios:
 1. recolher os comentários e reações dados deste post (ver como [aqui](#how-to-scrape-a-linkedin-post))
 2. estudar estes dados para ver como o discurso se polarizou (ver como [aqui](#analysis))
 
-Acontece que o *post foi removido dia 28 à tarde*, e apesar de estar arquivado, o LinkedIn só mostra uma pequena parte da informação se o utilizador não a expandir manualmente. Coincidentemente, eu tinha feita uma recolha dos dados na noite anterior (27/06/2022), portanto ainda que não seja com a totalidade dos dados, analisei como 3106 pessoas reagiram ou comentaram, olhei para o género do seu nome numa tentativa de separação entre visão de género, e para a forma como reagiram ao post inicial para prever a sua visão como pró-vida (pro-life) e pró-escolha (pro-choice). A análise é algo limitada mas a polarização na discussão ficou notória. 
+Acontece que o *post foi removido dia 28 à tarde*, e apesar de [estar arquivado](https://web.archive.org/web/*/https://www.linkedin.com/posts/miguelmilhao_it-seems-that-unborn-babies-got-their-rights-activity-6946820360793169920-4E4z), o LinkedIn só mostra uma pequena parte das respostas e comentários, até o utilizador os expandir manualmente. Coincidentemente, eu tinha feita uma recolha dos dados na noite anterior (27/06/2022), portanto ainda que não seja com a totalidade dos dados, analisei como 3106 pessoas reagiram ou comentaram, olhei para o género do seu nome numa tentativa de separação entre visão de género, e para a forma como reagiram ao post inicial para prever a sua visão como pró-vida (pro-life) e pró-escolha (pro-choice). A análise é algo limitada mas a polarização na discussão ficou notória. 
 
-Fica também aqui arquivado o [vídeo-monólogo](media/video-monologo.webm"), caso seja removido como o post foi... (original [aqui](https://www.youtube.com/watch?v=RC6iN8C6LeY))
-
-
+Fica também aqui arquivado o [vídeo-monólogo](media/video-monologo.webm"), caso seja removido como o post foi (original [aqui](https://www.youtube.com/watch?v=RC6iN8C6LeY)).
 
 <details><summary>Ver links partilhados (26)</summary>
 
+Lista de todos os links presentas e respostas e comentários:
 ```text
 https://www.spdc.pt/images/RelatrioIVG2018_Imprensa.pdf.
 https://www.pewresearch.org/religion/fact-sheet/public-opinion-on-abortion/
@@ -77,14 +76,26 @@ https://www.publico.pt/2021/06/22/mundo/noticia/violacoes-graves-criancas-confli
   <img src="media/prolife.png" width="60%"/>
 </p>
 
+<h3 align="center">distribution of individual reactions across name gender and position</h3>
+<p align="center">
+  <img src="media/reactions_dist.png" width="60%"/>
+</p>
+
 <h3 align="center">Network visualization of user reactions to other users, colored for name gender</h3>
 <p align="center">
   <img src="media/final-gender-label.png" width="100%"/>
   <img src="media/gender_position.png" width="70%"/>
 </p>
 
-* 261/427 aka 61.12% of prolife are male, they are 1194/3106 aka 38.44% of all people
-* 161/427 aka 37.70% of prolife are female, they are 1905/3106 aka 61.33% of all people
+Name gender prolife distribution
+* 283/427 aka 66.28% of prolife are male, they are 1297/3106 aka 41.76% of all people
+* 139/427 aka 32.55% of prolife are female, they are 1802/3106 aka 58.02% of all people
+* 5/427 aka 1.17% of prolife are other, they are 7/3106 aka 0.23% of all people
+
+Name gender prochoice distribution
+* 1663/2679 aka 62.08% of prochoice are female, they are 1802/3106 aka 58.02% of all people
+* 1014/2679 aka 37.85% of prochoice are male, they are 1297/3106 aka 41.76% of all people
+* 2/2679 aka 0.07% of prochoice are other, they are 7/3106 aka 0.23% of all people
 
 <h3 align="center">Network visualization of user reactions to other users, colored for predicted position on abortion</h3>
 <p align="center">
